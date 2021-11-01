@@ -6,13 +6,13 @@
 #    By: jalvarad <jalvarad@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/14 09:43:37 by jalvarad          #+#    #+#              #
-#    Updated: 2021/09/19 15:32:36 by jalvarad         ###   ########.fr        #
+#    Updated: 2021/11/01 14:58:32 by jalvarad         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= pipex
 
-CFLAGS	= -Wall -Werror -Wextra #-fsanitize=address
+CFLAGS	= -Wall -Wextra #-fsanitize=address
 
 SRCS	= pipex.c \
 			ft_split.c \
